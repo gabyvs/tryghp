@@ -3,7 +3,7 @@
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var path = require('path');
-var buildPath = path.resolve(__dirname, '../build/');
+var buildPath = path.resolve(__dirname, '../docs/');
 var nodeModulesPath = path.resolve(__dirname, '../node_modules');
 
 var config = {
