@@ -28,7 +28,7 @@ var config = {
     },
     output: {
         path: buildPath,
-        filename: 'tryghp/bundles/bundle.js',
+        filename: 'bundles/bundle.js',
         sourceMapFilename: '[file].map',
         publicPath: '/'
     },
@@ -102,7 +102,7 @@ var config = {
             template: './demo/index.html'
         }),
         new webpack.optimize.CommonsChunkPlugin(
-            /* chunkName= */'vendor', /* filename= */'tryghp/bundles/vendor.bundle.js'
+            /* chunkName= */'vendor', /* filename= */'bundles/vendor.bundle.js'
         )
     ]
 };

@@ -12,6 +12,6 @@ exports.plugins = [
         template: './demo/index.html'
     }),
     new webpack.optimize.CommonsChunkPlugin(
-        /* chunkName= */'vendor', /* filename= */'tryghp/bundles/vendor.bundle.js'
+        /* chunkName= */'vendor', /* filename= */'bundles/vendor.bundle.js'
     )
 ];
