@@ -14,7 +14,7 @@
     "start:neza": "node node_modules/nezaldi --conf=devserver-config.json",
     "start:static": "http-server ./docs",
     "start:webpack": "node ./webpack/webpack.server",
-    "start": "npm run start:webpack & npm run start:neza",
+    "start": "npm run start:webpack",
     "test:phantom": "karma start karma.conf.js",
     "test:debug": "npm run clean && karma start karma.debug.js",
     "test": "npm run clean && npm run test:phantom",

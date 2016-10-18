@@ -9,7 +9,7 @@ exports.entry.app = ['./demo/main.ts'];
 exports.plugins = [
     new HtmlWebpackPlugin({
         filename: 'index.html',
-        template: './demo/index.html'
+        template: './demo/ghp-index.html'
     }),
     new webpack.optimize.CommonsChunkPlugin(
         /* chunkName= */'vendor', /* filename= */'bundles/vendor.bundle.js'
