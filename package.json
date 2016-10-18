@@ -12,7 +12,6 @@
     "clean": "rm -rf ./build",
     "clean:ghp": "rm -rf ./docs/bundles ",
     "postinstall": "npm run typingsInstall",
-    "start:static": "http-server ./docs",
     "start:webpack": "node ./webpack/webpack.server",
     "start": "npm run start:webpack",
     "test:phantom": "karma start karma.conf.js",
