@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gabyvs/tryghp.svg?branch=master)](https://travis-ci.org/gabyvs/tryghp)
+
 Trying integration with tests
 
 Run start:static to run locally the packaged build that will run inside the github pages
